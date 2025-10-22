@@ -1,32 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Smart Agriculture Monitoring</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Agriculture Monitoring System</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Smart Agriculture Data Monitoring</h1>
-    <h3>Running on AWS VMM</h3>
+    <h1>🌾 Smart Agriculture Monitoring System</h1>
+    <p>Cloud + IoT powered farm data dashboard</p>
   </header>
 
-  <section id="data">
-    <div class="card">
-      <h2>Temperature</h2>
-      <p id="temp">-- °C</p>
-    </div>
-    <div class="card">
-      <h2>Humidity</h2>
-      <p id="humidity">-- %</p>
-    </div>
-    <div class="card">
-      <h2>Soil Moisture</h2>
-      <p id="moisture">-- %</p>
-    </div>
-  </section>
+  <main>
+    <section class="cards">
+      <div class="card">
+        <h2>🌡 Temperature</h2>
+        <p id="temp">-- °C</p>
+      </div>
+      <div class="card">
+        <h2>💧 Humidity</h2>
+        <p id="humidity">-- %</p>
+      </div>
+      <div class="card">
+        <h2>🌱 Soil Moisture</h2>
+        <p id="moisture">-- %</p>
+      </div>
+      <div class="card">
+        <h2>☀ Light Intensity</h2>
+        <p id="light">-- lux</p>
+      </div>
+    </section>
+
+    <section class="info">
+      <h2>About the System</h2>
+      <p>
+        This dashboard simulates real-time monitoring of key farm conditions using cloud and IoT concepts.
+        The system collects and visualizes data such as temperature, humidity, soil moisture, and sunlight levels.
+        Hosted on AWS Virtual Machine (VMM), it demonstrates how smart farming can improve productivity and sustainability.
+      </p>
+    </section>
+  </main>
 
   <footer>
-    <p>Cloud & IoT Simulation • Hosted on AWS Virtual Machine (VMM)</p>
+    <p>Developed as part of Cloud Computing Case Study | Powered by AWS ☁</p>
   </footer>
 
   <script src="script.js"></script>
